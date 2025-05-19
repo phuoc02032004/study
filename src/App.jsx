@@ -12,7 +12,7 @@ function App() {
   return (
     <>  
     {/* <UserContext.Provider value={username}> */} {/*Vi du Context*/}
-    <Provider store={store}> {/*Vi du Redux*/}
+    <Provider store={store}> Vi du Redux
       <Home />
     </Provider>
     {/* </UserContext.Provider> */}

@@ -5,8 +5,8 @@ function ChildSecond({handleOnClick}) {
   return (
     <div>
         <div>Day la ChildSecond</div>
-        <button onClick={handleOnClick} >
-            Tang
+        <button onClick={handleOnClick}>
+                Tăng (+) 
         </button>
     </div>
   )

@@ -24,7 +24,7 @@ function ParenComponent() {
 
   return (
     <>
-        Day la Component cha
+        <div>Day la Component cha</div>
         {/* <ChildComponent name={nguoi.name} age={nguoi.age} /> */}
 
         {/* <div>Count: {count}</div>
@@ -44,7 +44,7 @@ function ParenComponent() {
 
           {/* <UserComponent /> */} {/* Vi du Context */}
 
-        <CounterComponent /> {/* Vi du Redux */}
+        <CounterComponent /> Vi du Redux
     </>
   )
 }
