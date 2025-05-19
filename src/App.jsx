@@ -1,21 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 import Home from './page/Home/Home'
-import UserContext from './context/UserContext'
+import { UserProvider } from './context/UserContext'
 import { Provider } from 'react-redux'
 import { store } from './store/store'
 
 function App() {
   const [count, setCount] = useState(0)
-  const [username, setUsername] = useState('Test User')
 
   return (
-    <>  
-    <UserContext.Provider value={username}> 
-    <Provider store={store}> Vi du Redux
+    <>
+    <UserProvider>
+    <Provider store={store}>
       <Home />
     </Provider>
-    </UserContext.Provider>
+    </UserProvider>
     </>
   )
 }

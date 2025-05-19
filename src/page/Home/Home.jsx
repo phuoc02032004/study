@@ -26,7 +26,7 @@ function Home() {
     <div style={{border: '1px solid red', padding: '10px', backgroundColor: 'black'}}>
         <ParenComponent />
         {/* {user && <ListUser user={user} />} */}
-        <LifecycleDemoComponent />
+        {/* <LifecycleDemoComponent /> */}
 
     </div>
   )

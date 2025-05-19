@@ -18,7 +18,6 @@ function LifecycleDemoComponent() {
   }, [count]);
 
 
-  // Effect khác chỉ chạy 1 lần khi Mounting (nếu cần)
   useEffect(() => {
     console.log('--- useEffect KHÁC: Chỉ chạy 1 lần sau mounting (tương đương componentDidMount)');
   }, []);
