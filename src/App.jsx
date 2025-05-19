@@ -11,11 +11,11 @@ function App() {
 
   return (
     <>  
-    {/* <UserContext.Provider value={username}> */} {/*Vi du Context*/}
+    <UserContext.Provider value={username}> 
     <Provider store={store}> Vi du Redux
       <Home />
     </Provider>
-    {/* </UserContext.Provider> */}
+    </UserContext.Provider>
     </>
   )
 }

@@ -25,9 +25,11 @@ function ParenComponent() {
   return (
     <>
         <div>Day la Component cha</div>
-        {/* <ChildComponent name={nguoi.name} age={nguoi.age} /> */}
+        {/* vi du 1
+        <ChildComponent name={nguoi.name} age={nguoi.age} /> */}
 
-        {/* <div>Count: {count}</div>
+        {/* Vi du 2
+        <div>Count: {count}</div>
         <ChildSecond handleOnClick={handleClick} /> */}
 
 
@@ -35,16 +37,16 @@ function ParenComponent() {
             label="Input A:"
             value={sharedValue}
             onChange={handleInputChange} // Sibling A goi ham 
-          /> */}
-          {/* <SiblingInput
+          /> 
+           <SiblingInput
             label="Input B:"
             value={sharedValue}
             onChange={handleInputChange} // Sibling B goi ham 
           /> */}
 
-          {/* <UserComponent /> */} {/* Vi du Context */}
+          {/* <UserComponent /> Vi du Context */}
 
-        <CounterComponent /> Vi du Redux
+        {/* <CounterComponent /> Vi du Redux */}
     </>
   )
 }

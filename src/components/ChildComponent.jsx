@@ -4,7 +4,7 @@ import React from 'react'
 function ChildComponent({ name, age }) {
   return (
     <>
-    <div> Day la component con</div>
+    <div style={{}}> Day la component con</div>
         {name}, {age}
     </>
   )
